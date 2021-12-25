@@ -2,10 +2,12 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8"/>
-    <meta name="viewport"
-   content="width=device-width"/>
-    <title>tagob6c</title>
+    <meta name="viewport" content="width=device-width"/>
+    <title>scrollify</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
   </head>
 
 <body>
@@ -21,58 +23,92 @@
     
     <nav class="hd">
       <ul>
-        <li><a href="#" target="_blank">Server</a></li>
-        <li><a href="#" target="_blank">Minecraft</a></li>
-        <li><a href="#" target="_blank">Contact</a></li>
+        <li><a href="#">Server</a></li>
+        <li><a href="#">Minecraft</a></li>
+        <li><a href="#">Other</a></li>
       </ul>
     </nav>
   </header>
   
   <div class="box box1">
     <h2>Discord Bot</h2>
-    
+
     <div class="bot">
       <img src="image/tag.png" align="left">
       <h2>TAG Bot</h2>
-      <pre>なんか
+      <pre>多機能Bot
+正直他のBot使った方がいいと思う
+一応使い方は下にあります
       </pre>
       <a
       href="https://discord.com/api/oauth2/authorize?client_id=798041779227066388&permissions=1540618059767&scope=bot%20applications.commands"
       class="add"
-      onContextmenu="return false;">Add to Discord</a>
+      onContextmenu="return false;" target="_blank">Add to Discord</a>
     </div>
     <div class="bot">
-      <img src="image/moca.jpg" align="left">
+      <img src="image/moca.png" align="left">
       <h2>Univ-t-e</h2>
-      <pre>ただのネタbot
-
+      <pre>あるユーザーの言動をbotにしたやつ
+使い方は下にあります。
       </pre>
       <a
       href="https://discord.com/api/oauth2/authorize?client_id=908343124567408681&permissions=67584&scope=bot%20applications.commands"
       class="add"
-      onContextmenu="return false;">Add to Discord</a>
+      onContextmenu="return false;" target="_blank">Add to Discord</a>
+    </div>
+  </div><!--box-->
+  <div class="box box2">
+    <h2>TAG Bot</h2>
+    <div class="glass" id="glass">
+      <h1>Commands</h1>
+      <pre>ban, unban, kick, avatar, invite, mirakem, omikuji,
+ping, random, say, server, userinfo
+      </pre>
     </div>
   </div><!--box-->
   
-  <div class="box box2">
-    <h2>TAG Bot</h2>
-    <!-- This was made with GlassGenerator.netlify.app -->
-    <div class="tag-bot" id="glass"></div>
-  </div><!--box-->
-  
   <div class="box box3">
-    <h2>Univ-t-e</h2>
+    <h2>University Tournament everywhere</h2>
+    <div class="glass" id="glass">
+      <h1>いんとろだくしょん</h1>
+      <h1>えーっとなんだっけあそうそうぼくねたまにしゃべるれべるのひとのいんすたふぉろーしてたんだけどねしたしいともだちにはいってたんだよねそれはいいんだけどしたしいともだちっていうことばのいみがちょっとよくわからくなったってなんのはなしだっけあそうそうさいきんぼくおもったことがあっておしっことうんちってなんでいっしょにでるんだろうっておもってそんなことかんがえてたらといれいきたくなったんでといれいってきまーす
+      </h1>
+      <pre class="univ">このbotは全メッセージに反応するのでとてもうるさいです。
+なので "どこでも大学トーナメントと触れ合う場所"
+という名前のチャンネルでしか動作しないようになっています。
+ちなみにbotの機能はメッセージに返信するだけです。
+これがちですまぢ
+      </pre>
+    </div>
   </div><!--box-->
   
   <div class="box box4">
     <h2>Contact</h2>
+    <div class="contact">
+      <a href="https://github.com/tagob6c" target="_blank">
+        <h3>Github</h3>
+      </a>
+    </div>
+    
+    <div class="contact">
+      <a href="https://discord.com/users/615072340069318666">
+        <h3><font color="6e7afa">Discord</font></h3>
+      </a>
+    </div>
+    
+    <div class="contact">
+      <a href="https://youtube.com/c/TAGOb6c">
+        <h3><font color="c44545">YouTube</font></h3>
+      </a>
+    </div>
+    
   </div><!--box-->
   
   
   <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery-scrollify@1/jquery.scrollify.min.js"></script>
   <script src="index.js"></script>
-  </div>
   
+  </div>
 </body>
 </html>
